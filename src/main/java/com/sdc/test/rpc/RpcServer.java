@@ -1,4 +1,4 @@
-package com.sdc.test.rcp;
+package com.sdc.test.rpc;
 
 import com.rabbitmq.client.*;
 import com.sdc.test.util.StringUtils;

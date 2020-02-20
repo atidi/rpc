@@ -1,4 +1,4 @@
-package com.sdc.test.rcp;
+package com.sdc.test.rpc;
 
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;

@@ -1,6 +1,6 @@
 package com.sdc.test.util;
 
-import com.sdc.test.rcp.RpcDto;
+import com.sdc.test.rpc.RpcDto;
 
 import java.io.*;
 

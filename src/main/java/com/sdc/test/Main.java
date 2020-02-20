@@ -3,8 +3,8 @@ package com.sdc.test;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import com.sdc.test.rcp.ObjectRpcClient;
-import com.sdc.test.rcp.ObjectRpcServer;
+import com.sdc.test.rpc.ObjectRpcClient;
+import com.sdc.test.rpc.ObjectRpcServer;
 
 
 public class Main {
