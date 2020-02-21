@@ -1,4 +1,6 @@
-package com.sdc.test;
+package com.sdc.test.rpc;
+
+import com.sdc.test.rpc.RemoteService;
 
 import java.util.List;
 

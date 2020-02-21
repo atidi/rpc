@@ -1,4 +1,4 @@
-package com.sdc.test;
+package com.sdc.test.rpc;
 
 import java.util.List;
 

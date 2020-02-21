@@ -2,16 +2,18 @@ package com.sdc.test.rpc;
 
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
+import com.sdc.test.rpc.base.AbstractRpcServer;
+import com.sdc.test.rpc.dto.RpcDto;
 import com.sdc.test.util.SerializeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
+import java.io.*;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ObjectRpcServer<E> extends RpcServer {
+public class ObjectRpcServer<E> extends AbstractRpcServer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ObjectRpcServer.class);
 
@@ -70,8 +72,7 @@ public class ObjectRpcServer<E> extends RpcServer {
 
     @Override
     public void handleCast(byte[] requestBody) {
-      //TODO implementing
+        LOGGER.warn("No replyTo or correlationId id" );
     }
-
 
 }

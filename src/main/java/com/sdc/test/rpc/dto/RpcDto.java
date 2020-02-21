@@ -1,4 +1,4 @@
-package com.sdc.test.rpc;
+package com.sdc.test.rpc.dto;
 
 import java.io.Serializable;
 
